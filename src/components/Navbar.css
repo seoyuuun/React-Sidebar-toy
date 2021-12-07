@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #060b26;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .nav-menu-icon {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: white;
+    max-height: 2rem;
+    background: none;
+  }
+  
+  .sidebar-container {
+    background-color: #060b26;
+    width: 14rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 1s;
+  }
