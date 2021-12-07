@@ -1,12 +1,12 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Sidebar />
+        <Navbar />
         <Routes>
           <Route path="/" />
           <Route path="/" />
